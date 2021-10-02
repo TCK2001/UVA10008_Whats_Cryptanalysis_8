@@ -10,3 +10,14 @@ for(int i=0;i<length;i++)
 }
 ```
 This Question also have to use toupper to check how many A...Z in there;
+----
+```c++
+for(int i=0;i<26;i++) //판단식; 
+{
+  for(int j=i;j<26;j++)
+  {
+    if(num[i]<num[j])
+    {
+      .....
+```
+And used bubble sort to sort;
